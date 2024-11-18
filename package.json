@@ -5,8 +5,11 @@
     "hardhat": "^2.22.15"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
-  },  
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "json-stream-stringify": "^3.1.6",
+    "lodash": "^4.17.21"
+  },
   "scripts": {
     "start": "hardhat run scripts/deploy.js --network amoy"
   }
